@@ -4,7 +4,7 @@ alias \
         cp="cp -iv" \
         mv="mv -iv" \
         rm="rm -vI" \
-        ls="ls --color=auto -a" \
+        ls="ls --color=auto" \
         p="sudo pacman" \
         v="nvim" \
 
