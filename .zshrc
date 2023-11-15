@@ -1,12 +1,12 @@
-# Created by newuser for 5.9
-#
-if [[ $(tty) = /dev/tty1 ]]; then pgrep dwm || startx; fi
-
 autoload -U colors && colors
 
-alias ls='ls --color=auto'
-
-alias p="sudo pacman"
+alias \
+        cp="cp -iv" \
+        mv="mv -iv" \
+        rm="rm -vI" \
+        ls="ls --color=auto -a" \
+        p="sudo pacman" \
+        v="nvim" \
 
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
