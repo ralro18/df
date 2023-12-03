@@ -1,0 +1,5 @@
+xrdb -merge ~/.Xresources &
+xcompmgr -n &
+dwmblocks &
+xwallpaper --zoom ~/.local/bg/1.jpg
+exec dwm
