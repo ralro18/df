@@ -1,0 +1,2 @@
+#!/bin/sh
+pactl list sinks | grep Volume | head -n1 | awk '{print "Vol:"$5}'
