@@ -1,7 +1,6 @@
 #!/bin/zsh
-
 # profile file. Runs on login. Environmental variables are set here.
-
+export PATH="$PATH:$(find ~/.local/bin -type d | paste -sd ':' -)"
 # Default programs:
 export EDITOR="/usr/bin/nvim"
 export XDG_CONFIG_HOME="$HOME/.config"
