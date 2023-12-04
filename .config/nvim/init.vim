@@ -15,6 +15,6 @@ set number
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
-
+hi CursorLine   cterm=NONE ctermbg=darkgrey ctermfg=white guibg=darkgrey guifg=white
 " Use highlighting when doing a search.
 set hlsearch
