@@ -8,8 +8,9 @@ alias \
         ls="ls --color=auto" \
         p="sudo pacman" \
         v="nvim" \
+        initialinstall="sudo pacamn -S zathura zathura-pdf-mupdf neovim gnu-free-fonts noto-fonts ranger pavucontrol mpv pacman-contrib htop" \
 
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b"
 
 HISTSIZE=10000
 SAVEHIST=10000
