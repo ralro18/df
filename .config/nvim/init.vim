@@ -18,3 +18,8 @@ set cursorline
 hi CursorLine   cterm=NONE ctermbg=darkgrey ctermfg=white guibg=darkgrey guifg=white
 " Use highlighting when doing a search.
 set hlsearch
+" Remove background so its transparent like the terminal.
+highlight Normal guibg=none
+highlight NonText guibg=none
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
