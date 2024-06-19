@@ -7,6 +7,7 @@ alias \
         rm="rm -vI" \
         ls="ls --color=auto" \
         p="sudo pacman" \
+        pdff="groff -ms -T pdf" \
         v="nvim" \
         initialinstall="sudo pacamn -S zathura zathura-pdf-mupdf neovim gnu-free-fonts noto-fonts ranger pavucontrol mpv pacman-contrib htop" \
 
