@@ -1,7 +1,7 @@
 # dot Files
 
 Welcome to my dotfiles, it will allow you to download my configuration for some aplications and implement a .local folder for some bin utilities and sources for DWM, ST, and other compile base apps.
-It will aldo create some enviroment variables to organize the config files. 
+It will also create some enviroment variables to organize the config files. 
 
 
 ## Apps used:
