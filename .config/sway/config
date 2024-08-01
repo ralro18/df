@@ -1,7 +1,6 @@
 xwayland disable
 ### Variables
-#
-# Logo key. Use Mod1 for Alt.
+# Mod4 is the Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
 set $left h
@@ -10,9 +9,7 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 set $term foot
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
+# Your preferred application launcher and apps 
 set $menu fuzzel
 set $browser brave
 
@@ -212,8 +209,9 @@ bar {
 
     colors {
         statusline #ffffff
-        background #323232
-        inactive_workspace #323232 #323232 #5c5c5c
+        background #000000
+        focused_workspace #616161 #616161 #ffffff
+        inactive_workspace #000000 #000000 #5c5c5c
     }
 }
 
