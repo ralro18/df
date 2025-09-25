@@ -12,5 +12,5 @@ export XINITRC="$XDG_CONFIG_HOME/xinitrc"
 #sudo bash -c "echo 0 > /sys/class/leds/platform::micmute/brightness"
 #[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
 if [ -z "${WAYLAND_DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec sway
+  exec Hyprland 2>&1 /dev/null
 fi
